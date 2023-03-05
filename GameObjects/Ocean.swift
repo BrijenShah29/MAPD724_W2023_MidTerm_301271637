@@ -6,6 +6,7 @@ class Ocean : GameObject
     // constructor / initializer
     init()
     {
+        // Horizontal Ocean 
         super.init(imageString: "ocean", initialScale: 2)
         Start()
     }

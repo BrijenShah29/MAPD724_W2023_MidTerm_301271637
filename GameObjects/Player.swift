@@ -6,6 +6,7 @@ class Player : GameObject
     // Initializer
     init()
     {
+        // Horizontal Player
         super.init(imageString: "plane", initialScale: 0.9)
         Start()
     }
@@ -29,12 +30,14 @@ class Player : GameObject
     override func CheckBounds()
     {
         // constrain the player on the bottom boundary
+        // Altering player's position
         if(position.y <= -320)
         {
             position.y = -320
         }
         
         // constrain the player on the top boundary
+        // Altering player's position
         if(position.y >= 320)
         {
             position.y = 320

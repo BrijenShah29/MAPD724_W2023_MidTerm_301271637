@@ -19,7 +19,7 @@ class Cloud : GameObject
     override func Start()
     {
         //zPosition = Layer.cloud.rawValue
-        
+        // altering cloud zPostion manually
         zPosition = 3
         alpha = 0.5 // 50% transparent
         Reset()
