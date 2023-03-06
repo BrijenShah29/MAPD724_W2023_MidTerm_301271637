@@ -1,7 +1,7 @@
 //
 //  GameViewController.swift
 //  MAPD724_MidTerm_Brijen
-//
+//  Student Id : 301271637
 //  Created by Brijen Shah on 2023-03-04.
 //
 
@@ -20,6 +20,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var StartButton: UIButton!
     @IBOutlet weak var EndLabel: UILabel!
     @IBOutlet weak var RestartButton: UIButton!
+    
     
     var gamePlay = false
     

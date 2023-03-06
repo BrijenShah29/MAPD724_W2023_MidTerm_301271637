@@ -14,7 +14,6 @@ class GameScene: SKScene
     
     override func sceneDidLoad()
     {
-        print("GameLandscapeScene sceneDidLoad")
         name = "GAME"
         
         // add the first ocean to the Scene
